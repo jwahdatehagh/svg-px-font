@@ -76,7 +76,7 @@ const LETTER_WIDTHS = {
 const write = (text, color = 'black', spacing = 1) => {
   const letters = text.split('')
 
-  let svg = `<g fill="${color}" fill-rule="evenodd" clip-rule="evenodd">`
+  let svg = `<g fill="${color}" fill-rule="evenodd" clip-rule="evenodd" aria-label="${text}">`
   let letterPos = 0
 
   for (let letter of letters) {
