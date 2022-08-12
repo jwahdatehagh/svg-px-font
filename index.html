@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Code Alphabet</title>
+
+  <style>
+    body {
+      background-color: black;
+    }
+  </style>
+</head>
+<body>
+  <div id="app"></div>
+  <script src="./alphabet.js"></script>
+
+  <script>
+    const app = document.getElementById('app')
+
+    app.innerHTML = `<svg width="1400" height="600">
+      <g transform="scale(10)">${write('abcdefghijklmnopqrstuvwxyz', 'lightblue')}</g>
+      <g transform="scale(10) translate(0, 10)">${write('The quick brown fox', 'white')}</g>
+      <g transform="scale(10) translate(0, 20)">${write('jumps over the lazy dog', 'white')}</g>
+      <g transform="scale(10) translate(0, 30)">${write('0123456789', 'lightblue')}</g>
+      <g transform="scale(10) translate(0, 40)">${write('*=<>,.:;!?+-$#', 'lightblue')}</g>
+    </svg>`
+  </script>
+</body>
+</html>
