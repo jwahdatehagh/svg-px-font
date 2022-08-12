@@ -205,6 +205,14 @@ const ALPHABET = {
   },
 }
 
+/**
+ * Write some text as SVG px font.
+ *
+ * @param {string} text The text you want to write
+ * @param {string} color An SVG fill compatible color string
+ * @param {number} spacing The space between letters
+ * @returns {string} The assembled SVG <g> group
+ */
 const write = (text, color = 'black', spacing = 1) => {
   const letters = text.split('')
 
