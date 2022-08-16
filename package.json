@@ -1,0 +1,23 @@
+{
+  "name": "svgs",
+  "version": "1.0.0",
+  "description": "![Alphabet Preview](./preview.png)",
+  "main": "alphabet.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwahdatehagh/svg-px-font.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jwahdatehagh/svg-px-font/issues"
+  },
+  "homepage": "https://github.com/jwahdatehagh/svg-px-font#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.7.3"
+  }
+}
